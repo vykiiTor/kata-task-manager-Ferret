@@ -1,6 +1,6 @@
 # Task Manager kata
 
-*Goal: practice TDD by implementing a task manager*
+*Goal: practice TDD and clean architecture by implementing a task manager*
 
 # Specification
 
@@ -59,6 +59,7 @@ Bye!
 
 # Variants
 
+* Use Comand/Query Separation
 * Only use  calisthenics objects https://williamdurand.fr/2013/06/03/object-calisthenics/
 * Only use Python primitives (no classes)
 * Use a purely functional style (no mutation)
