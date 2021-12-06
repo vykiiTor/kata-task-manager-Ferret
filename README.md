@@ -39,7 +39,7 @@ Bye!
 
 # Instructions
 
-* Use the TDD rules as close as possible to implement the
+* Follow the TDD rules as close as possible to implement the
   above specifications.
 
 * Use an iterative process - going through the following steps, in order:
@@ -56,10 +56,3 @@ Bye!
 
 * The task list does not need to be *persistent* - it's OK if the task
   manager always starts empty
-
-# Variants
-
-* Use Comand/Query Separation
-* Only use  calisthenics objects https://williamdurand.fr/2013/06/03/object-calisthenics/
-* Only use Python primitives (no classes)
-* Use a purely functional style (no mutation)
