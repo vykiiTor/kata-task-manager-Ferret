@@ -42,6 +42,8 @@ Bye!
 * Follow the TDD rules as close as possible to implement the
   above specifications.
 
+* *Note*: you can assume the user only entres *valid inputs*.
+
 * Use an iterative process - going through the following steps, in order:
 
 1.  Parse user input (+, -, x, o)
