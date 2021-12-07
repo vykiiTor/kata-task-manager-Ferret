@@ -42,7 +42,7 @@ Bye!
 * Follow the TDD rules as close as possible to implement the
   above specifications.
 
-* *Note*: you can assume the user only entres *valid inputs*.
+* *Note*: you can assume the user only enters *valid inputs*.
 
 * Use an iterative process - going through the following steps, in order:
 
