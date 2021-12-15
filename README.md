@@ -29,7 +29,7 @@ No task yet
 1 [ ] Learn Python
 >>> + Learn TDD
 1 [ ] Learn Python
-2 [ ] Learn SQL
+2 [ ] Learn TDD
 >>> x 1
 1 [x] Learn Python
 2 [ ] Learn TDD
