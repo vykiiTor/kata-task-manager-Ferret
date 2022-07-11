@@ -46,7 +46,7 @@ Bye!
 
 * Use an iterative process - going through the following steps, in order:
 
-1.  Parse user input (+, -, x, o)
+1.  Parse user input (+, -, x, o, q)
 2.  Update the task list
 3.  Display the tasks
 4.  Run the interaction loop
