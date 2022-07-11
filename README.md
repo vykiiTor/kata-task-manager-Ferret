@@ -47,6 +47,11 @@ Bye!
 * Use an iterative process - going through the following steps, in order:
 
 1.  Parse user input (+, -, x, o, q)
+
+*Note: by parser, we mean a function that takes a strring and
+returns something that is *not* a string. For instance, a command,
+a list of tokens, ...*
+
 2.  Update the task list
 3.  Display the tasks
 4.  Run the interaction loop
