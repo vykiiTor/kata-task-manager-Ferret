@@ -63,3 +63,10 @@ a list of tokens, ...*
 
 * The task list does not need to be *persistent* - it's OK if the task
   manager always starts empty
+
+# Going further - hexagonal architecture
+
+* Implement storing tasks in a db (for insance using `sqlite`)
+* Expose the functionnality of the task manager as a web API in addition to the command line
+* Allow to use a key-value store in addition to the sql backend
+* You should end up with properly separated modules
