@@ -66,7 +66,8 @@ a list of tokens, ...*
 
 # Going further - hexagonal architecture
 
-* Implement storing tasks in a db (for insance using `sqlite`)
+* Implement storing tasks in a db (for instance using `sqlite`, or a big `json` file)
 * Expose the functionnality of the task manager as a web API in addition to the command line
 * Allow to use a key-value store in addition to the sql backend
-* You should end up with properly separated modules
+* You should end up with properly separated modules - the web and db modules should only depend
+  on the core module, and not the other way around.
