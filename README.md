@@ -64,8 +64,9 @@ a list of tokens, ...*
 * The task list does not need to be *persistent* - it's OK if the task
   manager always starts empty
 
-# Going further - hexagonal architecture
+# Going further
 
+* Implement undo - there is a famous design pattern that can help
 * Implement storing tasks in a db (for instance using `sqlite`, or a big `json` file)
 * Expose the functionnality of the task manager as a web API in addition to the command line
 * Allow to use a key-value store in addition to the sql backend
