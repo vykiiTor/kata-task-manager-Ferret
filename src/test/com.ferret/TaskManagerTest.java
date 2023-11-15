@@ -9,14 +9,14 @@ public class TaskManagerTest {
     @Test
     void addTask() {
         TaskManager taskManager = new TaskManager();
-        task_id = taskManager.addTask("Learn Java");
+        taskManager.addTask("Learn Java");
         assertEquals(1, taskManager.getTasks().size());
     }
 
     @Test
     void removeTask() {
         TaskManager taskManager = new TaskManager();
-        task_id = taskManager.addTask("Learn Java");
+        taskManager.addTask("Learn Java");
         taskManager.removeTask(task_id);
         assertEquals(0, taskManager.getTasks().size());
     }

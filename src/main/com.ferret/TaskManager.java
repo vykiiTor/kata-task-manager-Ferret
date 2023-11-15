@@ -10,6 +10,10 @@ class TaskManager {
         this.tasks = new ArrayList<>();
     }
 
+    public List<Task> getTasks(){
+        return tasks;
+    }
+
     public void addTask(String description) {
         tasks.add(new Task(description, tasks.size()+1));
     }
@@ -37,6 +41,8 @@ class TaskManager {
             return result;
         }
     }
+
+    //todo remove task
 
     private boolean isValidTaskId(int taskId) {
         return taskId >= 1 && taskId <= tasks.size();
