@@ -7,11 +7,10 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class TaskManagerTest {
-    String message = "Hello World";
+public class TaskManagerTest {
     @Test
     public void testUserCommand(){
-        List<Task> tasks = new ArrayList<>();
+        List<Task> tasks = new ArrayList<Task>();
         assert(tasks.isEmpty());
     }
 }
